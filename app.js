@@ -3,7 +3,7 @@ titulo.innerHTML = 'juego del numero secreto';
 
 let parrafo = document.querySelector('p');
 parrafo.innerHTML = 'Elige un numero del 1 al 10';*/
-/*
+
 let numeroSecreto = 0;
 let intentos = 0;
 listaNumerosSorteados = [];
@@ -88,7 +88,7 @@ function reiniciarJuego(){
 
 condicionesIniciales();
 
-*/
+
 
 /*
 Crea una lista vacía llamada "listaGenerica".
