@@ -67,7 +67,7 @@ if(listaNumerosSorteados.length == numeroMaximo){
 function condicionesIniciales(){
     asignarTextoElemento('h1','Juego del numero secreto');
 
-    asignarTextoElemento('p',`Elige un numero del 1 al 10 ${numeroMaximo}`);
+    asignarTextoElemento('p',`Elige un numero del 1 al ${numeroMaximo}`);
     numeroSecreto = generarNumeroSecreto();
     intentos = 1 ;
 
